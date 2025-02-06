@@ -83,6 +83,7 @@ body {
   padding: 0.1rem;
 }
 .redi {
+  color: grey;
   @media (max-width: 419px) {
     display: none;
   }
