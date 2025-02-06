@@ -1,0 +1,46 @@
+footer {
+  background-color: #f7f7f7;
+  color: #152f4e;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  // align-items: center;
+  .loaction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    @media (max-width: 981px) {
+      flex-direction: column;
+      gap: 1.5rem;
+
+      .location2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        .privacy1 {
+          font-weight: bolder;
+          font-size: 1.5rem;
+        }
+      }
+      .location3 {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+      }
+    }
+    .loacationa {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  .privacy {
+    display: flex;
+    gap: 0.5rem;
+    @media (max-width: 490px) {
+      flex-direction: column;
+    }
+  }
+}

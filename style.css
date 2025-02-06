@@ -197,11 +197,6 @@ nav .services2 .rooms .lake {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 0.5rem;
 }
-@media (max-width: 413px) {
-  .categories {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  }
-}
 .categories .category1 {
   width: 100%;
   background-color: white;
@@ -252,4 +247,53 @@ nav .services2 .rooms .lake {
   padding: 1rem 1.5rem;
   border: none;
   font-size: 1.4rem;
+}
+
+footer {
+  background-color: #f7f7f7;
+  color: #152f4e;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+footer .loaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+}
+@media (max-width: 981px) {
+  footer .loaction {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  footer .loaction .location2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  footer .loaction .location2 .privacy1 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+  footer .loaction .location3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+}
+footer .loaction .loacationa {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+footer .privacy {
+  display: flex;
+  gap: 0.5rem;
+}
+@media (max-width: 490px) {
+  footer .privacy {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
