@@ -144,13 +144,18 @@ nav {
     padding: 1rem;
     display: none;
     @media (max-width: 1211px) {
-      display: block;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-      gap: 1rem;
+      background-color: white;
+      padding: 1rem;
+      color: grey;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      // justify-content: space-between;
+      // display: block;
+      overflow-x: scroll;
     }
     @media (max-width: 605px) {
-      grid-template-columns: repeat(3, 1fr);
+      gap: 5rem;
     }
     .rooms {
       display: flex;

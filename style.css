@@ -167,15 +167,18 @@ nav .services2 {
 }
 @media (max-width: 1211px) {
   nav .services2 {
-    display: block;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 1rem;
+    background-color: white;
+    padding: 1rem;
+    color: grey;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    overflow-x: scroll;
   }
 }
 @media (max-width: 605px) {
   nav .services2 {
-    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
   }
 }
 nav .services2 .rooms {
@@ -282,11 +285,19 @@ footer .loaction {
     flex-direction: column;
     gap: 0.7rem;
   }
+  footer .loaction .location3 .privacy1 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
 }
 footer .loaction .loacationa {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+footer .loaction .loacationa .privacy1 {
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
 footer .privacy {
   display: flex;
