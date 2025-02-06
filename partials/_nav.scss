@@ -146,6 +146,9 @@ nav {
       grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
       gap: 1rem;
     }
+    @media (max-width: 605px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
     .rooms {
       display: flex;
       flex-direction: column;

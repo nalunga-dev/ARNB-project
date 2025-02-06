@@ -166,6 +166,11 @@ nav .services2 {
     gap: 1rem;
   }
 }
+@media (max-width: 605px) {
+  nav .services2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 nav .services2 .rooms {
   display: flex;
   flex-direction: column;
@@ -188,11 +193,6 @@ nav .services2 .rooms .lake {
 @media (max-width: 609px) {
   .categories {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 413px) {
-  .categories {
-    padding-top: 350px;
   }
 }
 .categories .category1 {
