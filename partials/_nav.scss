@@ -56,6 +56,9 @@ nav {
       gap: 0.8rem;
       align-items: center;
       justify-content: center;
+      @media (max-width: 828px) {
+        gap: 1.5rem;
+      }
       .user {
         border-radius: 2rem;
         padding: 0.5rem;
