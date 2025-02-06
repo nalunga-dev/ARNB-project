@@ -103,12 +103,6 @@ nav .services {
     gap: 5rem;
   }
 }
-@media (max-width: 460px) {
-  nav .services {
-    flex-direction: column;
-    gap: 1rem;
-  }
-}
 nav .services .rooms {
   display: flex;
   flex-direction: column;
@@ -194,6 +188,11 @@ nav .services2 .rooms .lake {
 @media (max-width: 609px) {
   .categories {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 413px) {
+  .categories {
+    padding-top: 350px;
   }
 }
 .categories .category1 {
