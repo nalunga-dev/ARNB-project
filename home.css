@@ -82,6 +82,11 @@ body {
   color: black;
   padding: 0.1rem;
 }
+.redi {
+  @media (max-width: 419px) {
+    display: none;
+  }
+}
 .amount {
   color: black;
   font-weight: bolder;
